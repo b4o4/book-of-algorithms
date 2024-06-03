@@ -1,0 +1,16 @@
+{
+    "name": "b4o4/book-of-algorithms",
+    "type": "project",
+    "description": "book of algorithms",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
