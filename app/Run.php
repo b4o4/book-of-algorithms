@@ -2,14 +2,16 @@
 
 namespace App;
 
-use App\Algorithms\Sort\QuickSort;
+use App\Algorithms\Sort\InsertSort;
+use App\Algorithms\Sort\MergeSort;
 
 class Run
 {
     public static function start(): void
     {
-        $values = QuickSort::getTestCase();
 
-        QuickSort::algorithm($values);
+        $values = MergeSort::getTestCase();
+
+        MergeSort::algorithm($values);
     }
 }
